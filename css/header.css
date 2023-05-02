@@ -1,0 +1,142 @@
+/* header front page*/
+
+.top-bar .nav-item {
+    display: inline-block;
+  }
+  
+  nav {
+    padding: 0px;
+  }
+  
+  nav.top-bar-wrap {
+    background: rgba(0, 0, 0, 0.938);
+  }
+  
+  .top-bar-wrap {
+    height: 20px;
+    line-height: 20px;
+  }
+  
+  .main-nav-wrap {
+    height: 70px;
+    line-height: 70px;
+  }
+  
+  nav.main-nav-wrap {
+    background: rgba(201, 195, 195, 0.3);
+    font-size: 1.2rem
+  }
+  
+  nav.top-bar-wrap ul,
+  nav.main-nav-wrap ul {
+    margin-bottom: 0px;
+    margin-top: 0px
+  }
+  
+  a.nave-link:hover {
+    background: rgba(255, 253, 253, 0.781);
+    color: rgb(5, 5, 5);
+    border-left: 10px solid rgba(0, 0, 0, 0.3);
+    padding: 2%;
+  }
+  
+  a.navs-link:hover {
+    background: rgba(0, 0, 0, 0.2);
+    color: rgba(43, 42, 42, 0.836);
+    border-left: 10px solid rgba(0, 0, 0, 0.3);
+    padding: 1%;
+  }
+
+  a.nav-link {
+    border-left: 100px solid transparent;
+    border-right: 10px solid transparent;
+    color: whitesmoke;
+    font-size: x-small;
+    text-transform: uppercase;
+    font-family: '
+    Times'
+    ,
+    sans-serif;
+    /* transform: skew(-25deg); */
+    transition: all 400ms ease-out
+  }
+  
+  a.nave-link {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    color: whitesmoke;
+    font-size: x-small;
+    text-transform: uppercase;
+    font-family: '
+    Times'
+    ,
+    sans-serif;
+    /* transform: skew(-25deg); */
+    transition: all 400ms ease-out;
+    text-align: right;
+  }
+
+  a .inner-link {
+    display: inline-block;
+    /* transform: skew(25deg) */
+  }
+  
+  .nav-link{
+    padding:2%;
+  }
+  .navs-link {
+    padding:2%;
+    color: #000000;
+  }
+  
+  /* .top-bar-wrap a {
+    padding-left: 12px;
+  } */
+  
+  .main-nav-wrap a {
+    padding-left: 10px;
+  }
+  
+  .brand-logo img {
+    height: 60px;
+    transform: skew(25deg)
+  }
+
+  /* not used */
+  .brand-phone a {
+    display: block;
+    font-size: 1.25em;
+    text-decoration: none;
+    color: #000000;
+    letter-spacing: 2px;
+    height: 40px;
+    line-height: 1.5em;
+    transform: skew(25deg)
+  }
+  
+  .brand-phone,
+  .brand-logo {
+    /* padding: 20px; */
+    position: absolute;
+    top: 0;
+    height: 90px;
+    transform: skewX(-25deg);
+  }
+  
+  .brand-logo {
+    padding-top: 5px;
+    left: -30px;
+    padding-left: 50px;
+    padding-right: 70px;
+    background: #aca7a7;
+    border-right: 2px solid #3074f3;
+  }
+
+  /* not used */
+  .brand-phone {
+    right: 0;
+    right: -30px;
+    padding-right: 70px;
+    background: #3074f3;
+    border-left: 3px solid #f8c48f;
+  }
