@@ -13,7 +13,7 @@ html {
   padding: 0; }
 
 body {
-  background-color: #ccc3c3;
+  background-color: #e1fffa;
   font-family: "Work Sans", sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -93,14 +93,14 @@ ul, ol {
   text-align: center; }
   .button.border-only {
     display: block;
-    border: 2px solid #959ea8;
-    padding: 10px 0px; }
+    border: 2px solid #0a0a0a;
+    padding: 10px 30px; }
     .button.border-only:hover {
-      border: 2px solid #2980b8;
-      color: #2980b8; }
+      border: 2px solid #8fcef3;
+      color: #8fcef3; }
   .button.muted, footer #footer__site_description p.button, footer #footer__social_media a.button,
   footer #footer__pages a.button {
-    color: #959ea8; }
+    color: #0a0a0a; }
 
 @media (min-width: 1400px) {
   .container_wrapper {
@@ -404,6 +404,17 @@ ul, ol {
             background-size: cover;
     background-position: center center;
     background-image: url("https://www.aamc.org/sites/default/files/styles/scale_and_crop_1200_x_666/public/DiverseMaskedWomenMedicalProviders_1200x666.jpg?itok=qQC5yr2l"); }
+
+    .post_featured__photos{
+      min-height: 500px;
+      width: 100%;
+      background-color: #2980b8;
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+              background-size: cover;
+      background-position: center center;
+      /* background-image: url("https://www.aamc.org/sites/default/files/styles/scale_and_crop_1200_x_666/public/DiverseMaskedWomenMedicalProviders_1200x666.jpg?itok=qQC5yr2l"); */
+    }
   .post_featured .post_featured__details {
     text-align: center;
     line-height: 1.5rem; }
